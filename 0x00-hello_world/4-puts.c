@@ -1,6 +1,6 @@
 #include <stdio.h>
 /*
- *main -is the begining point
+ *main - is the begining point
  *Return: value should be zero
  *
  *we use put instead of print
