@@ -16,13 +16,13 @@ int main(void)
 	n = rand() - RAND_MAX / 2;
 	if( n > 0 ){
 	/* if  condition is true then print the following */
-	printf("Exact value of n is: %d\n", n ); printf( "is positive\n");
+	printf(" %d", n); printf(" is positve\n");
 	} else if( n < 0 ){
 	/* if else if condition is true */
-	printf("Exact value of n is: %d\n", n ); printf( "is negative\n" );
+	printf("%d", n); printf(" is negative\n");
 	} else if( n == 0 ){
 	/* if else if condition is true */
-	printf("Exact value of n is: %d\n", n ); printf( "is zero\n" );
+	printf("%d", n); printf(" is zero\n");
 	}
 
 	return (0);
